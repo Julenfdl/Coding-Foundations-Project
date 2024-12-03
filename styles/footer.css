@@ -1,0 +1,23 @@
+.foot-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.foot-wrapper > .codepen-for-wrapper {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #c7c9d3;
+    background-color: #383838;
+}
+
+.foot-wrapper > .codepen-for-wrapper p {
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+

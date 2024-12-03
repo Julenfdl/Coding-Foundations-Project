@@ -1,0 +1,56 @@
+.homepage-wrapper {
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr 0.1fr 0.9fr;
+    padding-top: 60px;
+    margin: 8px -8px 0px -8px;
+    background: linear-gradient(to bottom right, #383838, black);
+}
+
+.homepage-wrapper > .description-btn-wrapper {
+    margin: -30px 30px;
+}
+
+.homepage-wrapper > .description-btn-wrapper > .h1-description-wrapper p {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.homepage-wrapper > .description-btn-wrapper > .h2-description-wrapper p {
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-top: -10px;
+}
+
+.homepage-wrapper > .description-btn-wrapper > .info-signup-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* margin-top: 30px; */
+} 
+
+.homepage-wrapper > .header-img-wrapper {
+    margin-left:40px;
+}
+
+.homepage-wrapper > .header-img-wrapper > .img-title-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.homepage-wrapper > .header-img-wrapper > .img-title-wrapper p{
+    margin-bottom: 0;
+    margin-left: 8px;
+    font-size: 1.2em;
+}
+.homepage-wrapper > .header-img-wrapper > .img-title-wrapper p strong{
+    color:aqua
+}
+
+#codepen-img {
+    width: 100%;
+    /* margin: 23px 0px 0px 0px; */
+    float: right;
+}
